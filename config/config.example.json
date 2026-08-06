@@ -1,0 +1,36 @@
+{
+  "check_interval_seconds": 180,
+  "page_wait_seconds": 20,
+  "navigation_delay_seconds": 3,
+  "headless": false,
+  "tixcraft_browser_engine": "selenium",
+  "kktix_browser_engine": "nodriver",
+  "browser_profile_dir": "./data/chrome-profile-tixcraft",
+  "kktix_browser_profile_dir": "./data/chrome-profile-kktix",
+  "notify_initial_state": true,
+  "notify_changes": true,
+  "screenshot_on_error": false,
+  "auto_restart_browser": false,
+  "restart_after_consecutive_errors": 3,
+  "config_reload_seconds": 15,
+  "backup_interval_hours": 24,
+  "backup_keep": 14,
+  "debug_parser": false,
+  "parser_replay": false,
+  "events": [
+    {
+      "code": "example_event",
+      "name": "範例活動",
+      "url": "https://tixcraft.com/activity/detail/example",
+      "provider": "auto",
+      "enabled": false
+    },
+    {
+      "code": "kktix_example",
+      "name": "KKTIX 範例活動",
+      "url": "https://example.kktix.cc/events/example",
+      "provider": "kktix",
+      "enabled": false
+    }
+  ]
+}
