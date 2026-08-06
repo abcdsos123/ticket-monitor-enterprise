@@ -1,0 +1,7 @@
+selenium>=4.29.0
+nodriver>=0.47.0
+discord.py>=2.5.0
+python-dotenv>=1.0.1
+psutil>=6.1.0
+filelock>=3.16.0
+pytest>=8.3.0

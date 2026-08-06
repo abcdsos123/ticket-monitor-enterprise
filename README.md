@@ -1,4 +1,4 @@
-# # Ticket Monitor Enterprise
+# Ticket Monitor Enterprise
 
 使用 Python 建立的多平台票券監控系統，目前支援：
 
